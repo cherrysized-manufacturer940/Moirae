@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.cast
+*.gif
+*.egg-info/
+dist/
+build/
+*_timing.json
