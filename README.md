@@ -2,7 +2,7 @@
 
 Scripted terminal demo video pipeline. Write a YAML screenplay, get a polished MP4 with camera zoom/pan, skin theming, and background compositing.
 
-https://github.com/peteromallet/Moirae/raw/main/hermes_capabilities.mp4
+<video src="https://github.com/peteromallet/Moirae/raw/main/hermes_capabilities.mp4" controls width="100%"></video>
 
 ## Quick Start
 
