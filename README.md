@@ -152,4 +152,3 @@ Available agg themes: `asciinema`, `dracula`, `github-dark`, `github-light`, `ka
 
 - [`moirae/scripts/example.yaml`](moirae/scripts/example.yaml) — basic conversation
 - [`moirae/scripts/example_with_camera.yaml`](moirae/scripts/example_with_camera.yaml) — camera zoom/pan
-- [`moirae/scripts/hermes_capabilities.yaml`](moirae/scripts/hermes_capabilities.yaml) — full production demo
