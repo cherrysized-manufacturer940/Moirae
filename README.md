@@ -4,6 +4,45 @@ Scripted terminal demo video pipeline. Write a YAML screenplay, get a polished M
 
 <video src="https://ujlwuvkrxlvoswwkerdf.supabase.co/storage/v1/object/public/videos/moirae/hermes_capabilities.mp4" controls width="100%"></video>
 
+## Give This to Your Agent
+
+Copy-paste this into your AI coding agent (Claude Code, Cursor, etc.) to install Moirae and set up the skill:
+
+```
+Install Moirae, a scripted terminal demo video pipeline, and set it up as a skill.
+
+1. Check prerequisites are installed:
+
+   which asciinema agg ffmpeg
+
+   If any are missing:
+   - asciinema: brew install asciinema (or pip install asciinema)
+   - agg: cargo install --git https://github.com/asciinema/agg
+   - ffmpeg: brew install ffmpeg
+
+2. Clone and install Moirae:
+
+   git clone https://github.com/peteromallet/Moirae.git
+   cd Moirae
+   pip install pillow numpy pyyaml pydantic rich
+
+3. Install the skill doc (if using Hermes Agent):
+
+   mkdir -p ~/.hermes/skills/media/demo-video
+   cp SKILL.md ~/.hermes/skills/media/demo-video/SKILL.md
+
+4. Test it works:
+
+   python -m moirae moirae/scripts/example.yaml
+
+   This should preview a demo in your terminal. To render an MP4:
+
+   python -m moirae moirae/scripts/example.yaml -o demo.mp4
+
+5. To create your own demo, write a YAML screenplay following the format in
+   moirae/scripts/example.yaml and the full schema in README.md or SKILL.md.
+```
+
 ## Quick Start
 
 ```bash
