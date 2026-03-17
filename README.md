@@ -2,7 +2,7 @@
 
 Scripted terminal demo video pipeline. Write a YAML screenplay, get a polished MP4 with camera zoom/pan, skin theming, and background compositing.
 
-<video src="https://ujlwuvkrxlvoswwkerdf.supabase.co/storage/v1/object/public/videos/moirae/hermes_capabilities.mp4" controls width="100%"></video>
+![Moirae demo](demo.gif)
 
 ## Give This to Your Agent
 
