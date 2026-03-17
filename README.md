@@ -2,7 +2,7 @@
 
 Scripted terminal demo video pipeline. Write a YAML screenplay, get a polished MP4 with camera zoom/pan, skin theming, and background compositing.
 
-![Moirae demo](demo.gif)
+[![Moirae demo](demo.gif)](https://x.com/peterom/status/2033675452036886969)
 
 ## Give This to Your Agent
 
